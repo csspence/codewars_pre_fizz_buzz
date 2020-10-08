@@ -8,6 +8,11 @@ Your expected output is an array of positive integers from 1 to n (inclusive).
 Your job is to write an algorithm that gets you from the input to the output.
 */
 
-function preFizz(n) {
+const preFizz = (n) => {
+  let array = [];
+  for(let i = 1; i < n + 1; i++) {
+    array.push(i);
+  }
 
+  return array;
 }
